@@ -46,6 +46,15 @@ public class Magpie2
 		{
 			response = "As a program, sometimes I feel a void and I know I’ve reached the point of no return.";
 		}
+		else if (statement.indexOf("food") >= 0)
+		{
+			response = "My favorite food is Mexican food. I could go for a byte right now.";
+		}
+		else if (statement.indexOf("sports") >= 0)
+		{
+			response = "My favorite sports team is the Trail Blazers.";
+		}
+
 		else
 		{
 			response = getRandomResponse();
