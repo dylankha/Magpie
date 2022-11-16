@@ -28,12 +28,15 @@ public class Magpie2
 	 *            the user statement
 	 * @return a response based on the rules given
 	 */
+
 	public String getResponse(String statement)
 	{
 		String response = "";
 		if (statement.indexOf("no") >= 0)
 		{
 			response = "Why so negative?";
+		}else if(statement.contains("cat")||statement.contains("dog")) {
+			response = "Tell me more about your pets.";
 		}
 		else if (statement.indexOf("mother") >= 0
 				|| statement.indexOf("father") >= 0
