@@ -35,6 +35,10 @@ public class Magpie2
 		{
 			response = "Why so negative?";
 		}
+		else if (statement.length() <= 0)
+		{
+			response = "Say something, please.";
+		}
 		else if (statement.indexOf("mother") >= 0
 				|| statement.indexOf("father") >= 0
 				|| statement.indexOf("sister") >= 0
@@ -54,7 +58,6 @@ public class Magpie2
 		{
 			response = "My favorite sports team is the Trail Blazers.";
 		}
-
 		else
 		{
 			response = getRandomResponse();
