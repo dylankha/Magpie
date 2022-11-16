@@ -100,7 +100,7 @@ public class Magpie2
 
 		else if (whichResponse == 5)
 		{
-			response = "Really?.";
+			response = "Really?";
 		}
 
 		return response;
