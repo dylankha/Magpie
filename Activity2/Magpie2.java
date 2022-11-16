@@ -38,6 +38,9 @@ public class Magpie2
 		}else if(statement.contains("cat")||statement.contains("dog")) {
 			response = "Tell me more about your pets.";
 		}
+		else if(statement.contains("Smith")){
+			response = "He sounds like a good teacher.";
+		}
 		else if (statement.indexOf("mother") >= 0
 				|| statement.indexOf("father") >= 0
 				|| statement.indexOf("sister") >= 0
