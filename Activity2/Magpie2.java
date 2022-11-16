@@ -42,6 +42,10 @@ public class Magpie2
 		{
 			response = "Tell me more about your family.";
 		}
+		else if (statement.indexOf(joke) >= 0)
+		{
+			response = "As a program, sometimes I feel a void and I know I’ve reached the point of no return";
+		}
 		else
 		{
 			response = getRandomResponse();
